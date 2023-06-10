@@ -1,5 +1,6 @@
 <template>
-<p class="text-h1 text-weight-bolder text-right text-accent ">Headline 1</p>
+<div>
+  <p class="text-h1 text-weight-bolder text-right text-accent ">Headline 1</p>
 <p class="text-h2 text-weight-bold text-left text-info ">Headline 2</p>
 <p class="text-h3 text-weight-medium text-center text-indigo-13">Headline 3</p>
 <p class="text-h4 text-weight-regular text-justify">Headline 4</p>
@@ -14,6 +15,7 @@ Body 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditii
 Body 2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aliquid ad quas sunt voluptatum officia dolorum cumque, possimus nihil molestias sapiente necessitatibus dolor saepe inventore, soluta id accusantium voluptas beatae.</p>
 <p class="caption-text">text-caption</p>
 <p class="text-overline">Overline</p>
+</div>
 </template>
 
 <script>

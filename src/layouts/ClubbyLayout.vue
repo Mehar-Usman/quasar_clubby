@@ -2,7 +2,7 @@
   <q-layout view="hHh Lpr fFf"> <!-- Be sure to play with the Layout demo on docs -->
 
     <!-- (Optional) The Header -->
-    <q-header elevated>
+    <!-- <q-header elevated>
       <q-toolbar>
         <q-btn
           flat
@@ -31,10 +31,10 @@
           label="Other Tab"
         />
       </q-tabs>
-    </q-header>
+    </q-header> -->
 
     <!-- (Optional) The Footer -->
-    <q-footer>
+    <!-- <q-footer>
       <q-tabs switch-indicator>
         <q-route-tab
           icon="map"
@@ -62,20 +62,20 @@
           Footer
         </q-toolbar-title>
       </q-toolbar>
-    </q-footer>
+    </q-footer> -->
 
     <!-- (Optional) A Drawer; you can add one more with side="right" or change this one's side -->
-    <q-drawer
+    <!-- <q-drawer
       v-model="leftDrawerOpen"
       side="left"
       bordered
       class="bg-grey-2"
-    >
+    > -->
       <!-- QScrollArea is optional -->
-      <q-scroll-area class="fit q-pa-sm">
+      <!-- <q-scroll-area class="fit q-pa-sm"> -->
         <!-- Content here -->
-      </q-scroll-area>
-    </q-drawer>
+      <!-- </q-scroll-area>
+    </q-drawer> -->
 
     <q-page-container>
       <!-- This is where pages get injected -->
