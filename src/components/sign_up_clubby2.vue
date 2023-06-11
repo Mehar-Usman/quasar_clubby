@@ -1,5 +1,5 @@
 <template>
-  <div class="q-px-xl">
+  <div class="">
     <div class="">
       <q-img src="https://www.clubby.me/Clubbylogo.svg" style="width: 300px;" />
     </div>
@@ -30,15 +30,18 @@
           class="border_none text-blue">Sign Up.</a></span>
     </div>
     <div class="row q-my-md q-px-lg">
-      <div class="col-5 q-mt-md ">
+      <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 q-mt-md ">
         <q-separator class="size"/>
       </div>
-      <div class="col-2 justify-center flex">
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 justify-center flex">
        <p class="text-weight-bold text-subtitle1">or</p>
       </div>
       <div class="col-5 q-mt-md ">
         <q-separator class="size"/>
       </div>
+    </div>
+    <div class="q-mt-md q-mb-xl">
+      <q-btn  class="full-width-button  text-weight-bold bg-grey-2 text-capitalize q-py-md" icon="facebook" flat label="Login With Google" @click="buttonClicked" text-color="black" />
     </div>
 
   </div>
